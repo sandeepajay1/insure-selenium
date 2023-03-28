@@ -10,6 +10,8 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 
 public class insure_me_selenium {
