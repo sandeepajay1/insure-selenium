@@ -17,11 +17,13 @@ public class insure_me_selenium {
 
 	public static void main(String[] args) throws InterruptedException, IOException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.edge.driver", "/var/lib/jenkins/msedgedriver");
+		//System.setProperty("webdriver.edge.driver", "/var/lib/jenkins/msedgedriver");
 		//WebDriverManager.edgedriver().setup();
-				
 		
-        WebDriver driver = new EdgeDriver();
+		WebDriver driver = new EdgeDriver(new EdgeOptions().setBinary("/var/lib/jenkins/msedgedriver"));
+		
+		
+       // WebDriver driver = new EdgeDriver();
 		driver.get("http://44.204.143.178:8084/contact.html");
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.findElement(By.id("inputName")).sendKeys("Sandeep");
