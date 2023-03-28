@@ -11,6 +11,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
+import org.openqa.selenium.edge.EdgeOptions;
 
 
 public class insure_me_selenium {
