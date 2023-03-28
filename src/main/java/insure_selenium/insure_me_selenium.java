@@ -10,7 +10,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.edge.EdgeOptions;
+//import org.openqa.selenium.edge.EdgeOptions;
 
 
 
@@ -18,11 +18,9 @@ public class insure_me_selenium {
 
 	public static void main(String[] args) throws InterruptedException, IOException {
 		// TODO Auto-generated method stub
-		//System.setProperty("webdriver.edge.driver", "/var/lib/jenkins/msedgedriver");
+		System.setProperty("webdriver.edge.driver", "/var/lib/jenkins/msedgedriver");
 		//WebDriverManager.edgedriver().setup();
-		String edgeBinaryPath = "/var/lib/jenkins/msedgedriver";
-EdgeOptions options = new EdgeOptions().setBinary(edgeBinaryPath);
-WebDriver driver = new EdgeDriver(options);
+		
 
 		
 		
