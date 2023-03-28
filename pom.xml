@@ -22,7 +22,7 @@
     <configuration>
       <archive>
         <manifest>
-          <mainClass>com.insure.selenium.insure_me_selenium</mainClass>
+          <mainClass>com.insure_selenium.insure_me_selenium</mainClass>
         </manifest>
       </archive>
     </configuration>
