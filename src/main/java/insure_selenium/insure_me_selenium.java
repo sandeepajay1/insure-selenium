@@ -16,8 +16,8 @@ public class insure_me_selenium {
 
 	public static void main(String[] args) throws InterruptedException, IOException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.edge.driver", "/var/lib/jenkins/msedgedriver");
-		
+		//System.setProperty("webdriver.edge.driver", "/var/lib/jenkins/msedgedriver");
+		WebDriverManager.edgedriver().setup();
 				
 		
         WebDriver driver = new EdgeDriver();
